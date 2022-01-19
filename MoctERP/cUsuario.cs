@@ -45,7 +45,7 @@ namespace MoctERP
         }
 
         //Variables globales (3 variables para cualquier conexión)
-        String cadenaConexion = "Server=DEL-SIS-001\\SQLEXPRESS;Database=MoctERP;Trusted_Connection=True;";
+        String cadenaConexion = "Server=UTSIT-RMR11\\SQLEXPRESS;Database=MoctERP;Trusted_Connection=True;";
         SqlConnection Conexion = null;
         SqlCommand Comando = null;
         SqlDataAdapter Adaptador = null;

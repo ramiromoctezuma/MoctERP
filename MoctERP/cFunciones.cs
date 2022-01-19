@@ -47,7 +47,7 @@ namespace MoctERP
 
         //Declaraciónd e variables de conexión
 
-        static String cadenaConexion = "Server=DEL-SIS-001\\SQLEXPRESS;Database=MoctERP;Trusted_Connection=True;";
+        static String cadenaConexion = "Server=UTSIT-RMR11\\SQLEXPRESS;Database=MoctERP;Trusted_Connection=True;";
         public static SqlConnection Conexion = null;
         public static SqlCommand Comando = null;
         public static SqlDataAdapter Adaptador = null;
